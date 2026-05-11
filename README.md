@@ -22,7 +22,7 @@
 
 This repository contains the official implementation of our memory-guided framework for **multi-label knee injury classification** from MRI volumes. Our model jointly detects **Abnormality**, **ACL tears**, and **Meniscus tears** from a single anatomical view (sagittal, coronal, or axial) while remaining lightweight enough for clinical deployment.
 
-> 🎯 **Key idea.** Instead of relying on expensive 3D CNNs, we combine a **2D ResNet-18 backbone** with **Depth-Aware Attention** and a **Task-Aware Memory Module** that stores pathology-specific prototypes — bridging the efficiency of 2D processing with the volumetric context of 3D understanding.
+> 🎯 **Key idea.** Instead of relying on expensive 3D CNNs, we combine a **2D ResNet-18 backbone** with **Depth-Aware Attention** and a **Task-Aware Memory Module** that stores pathology-specific prototypes - bridging the efficiency of 2D processing with the volumetric context of 3D understanding.
 
 <div align="center">
   <img src="./images/Pipeline.png" alt="Architecture" width="80%"/>

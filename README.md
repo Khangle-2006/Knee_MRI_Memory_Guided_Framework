@@ -125,8 +125,8 @@ knee_mri_project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/knee-mri-memory-net.git
-cd knee-mri-memory-net
+git clone https://github.com/Khangle-2006/Knee_MRI_Memory_Guided_Framework.git
+cd Knee_MRI_Memory_Guided_Framework
 
 # (Recommended) Create a fresh conda environment
 conda create -n mrnet python=3.10 -y

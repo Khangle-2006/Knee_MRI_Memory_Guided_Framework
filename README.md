@@ -20,7 +20,7 @@
 
 ## 📖 Overview
 
-This repository contains the official implementation of our memory-guided framework for **multi-label knee injury classification** from MRI volumes. Our model jointly detects **Abnormality**, **ACL tears**, and **Meniscus tears** from a single anatomical view (sagittal, coronal, or axial) while remaining lightweight enough for clinical deployment.
+This repository contains the official implementation of our memory-guided framework for **multi-label knee injury classification** from MRI volumes. Our model jointly detects **ACL tears**, and **Meniscus tears** from a single anatomical view (sagittal, coronal, or axial) while remaining lightweight enough for clinical deployment.
 
 > 🎯 **Key idea.** Instead of relying on expensive 3D CNNs, we combine a **2D ResNet-18 backbone** with **Depth-Aware Attention** and a **Task-Aware Memory Module** that stores pathology-specific prototypes - bridging the efficiency of 2D processing with the volumetric context of 3D understanding.
 
@@ -34,7 +34,7 @@ This repository contains the official implementation of our memory-guided framew
 ## ✨ Highlights
 
 - 🧠 **Task-Aware Memory.** A learnable key-value memory bank per pathology, queried via Top-K sparse attention, lets the network disentangle co-occurring injuries (e.g. ACL + Meniscus).
-- 🔍 **Multi-Scale Center Cropping.** Emulates the radiologist's workflow by feeding global / mid / close-up crops as three channels — capturing both anatomical context and fine-grained lesion texture.
+- 🔍 **Multi-Scale Center Cropping.** Emulates the radiologist's workflow by feeding global / mid / close-up crops as three channels - capturing both anatomical context and fine-grained lesion texture.
 - 📏 **Depth-Aware Attention.** Replaces rigid max-pooling with a learnable per-slice weighting, so the model focuses on the most diagnostic slices instead of averaging signal away.
 - 🪶 **Lightweight & Transferable.** Only **~0.65 M trainable parameters** (with RadImageNet pretraining), far smaller than Inception-V4 (41 M) or MVGNN (12.5 M).
 - 🔬 **Interpretable.** Grad-CAM++ heatmaps localize anatomical evidence per task, aligning with radiologist annotations.
@@ -333,7 +333,7 @@ The framework was trained and evaluated on:
 - ⚡ Mixed-precision training via `torch.amp`
 - 💾 Optional RAM caching for fast epoch turnaround
 
-Single-GPU training is fully supported — just pass `--use_dataparallel false`.
+Single-GPU training is fully supported - just pass `--use_dataparallel false`.
 
 ---
 

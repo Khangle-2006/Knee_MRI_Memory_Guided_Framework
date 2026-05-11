@@ -71,9 +71,9 @@ All pretrained weights are hosted on Google Drive. Download and place them in th
 | File                                       | Description                                              | Size   | Link |
 | :----------------------------------------- | :------------------------------------------------------- | :----: | :--: |
 | `resnet18_modan_mulsupcon_1ch.pth`         | Backbone pretrained with ModAn-MulSupCon on RadImageNet  | ~44 MB | [⬇️ Download](https://drive.google.com/drive/u/0/folders/1xhan_AEau8ze9wMMx3aVxEOphIGLwdMs) |
-| `best_model_sagittal_sota_1.pth`           | Best model — Sagittal view                                | ~50 MB | [⬇️ Download](https://drive.google.com/drive/u/0/folders/1zP5A6anAGZOh7hTgtl6mvXRbIUskGBDq) |
-| `best_model_coronal_sota_1.pth`            | Best model — Coronal view                                 | ~50 MB | [⬇️ Download](https://drive.google.com/drive/u/0/folders/1qz6SuJYbFpBHSJux5zav7dtCIpOvjVVN) |
-| `best_model_axial_sota_1.pth`              | Best model — Axial view                                   | ~50 MB | [⬇️ Download](https://drive.google.com/drive/u/0/folders/1lf330ZR4pu4L4AxLNH_VxW0BVfO5YL6J) |
+| `best_model_sagittal_sota_1.pth`           | Best model - Sagittal view                                | ~50 MB | [⬇️ Download](https://drive.google.com/drive/u/0/folders/1zP5A6anAGZOh7hTgtl6mvXRbIUskGBDq) |
+| `best_model_coronal_sota_1.pth`            | Best model - Coronal view                                 | ~50 MB | [⬇️ Download](https://drive.google.com/drive/u/0/folders/1qz6SuJYbFpBHSJux5zav7dtCIpOvjVVN) |
+| `best_model_axial_sota_1.pth`              | Best model - Axial view                                   | ~50 MB | [⬇️ Download](https://drive.google.com/drive/u/0/folders/1lf330ZR4pu4L4AxLNH_VxW0BVfO5YL6J) |
 
 > 💡 **Tip.** You only need the backbone weights for training from scratch. For inference / visualization, download the corresponding per-view checkpoint.
 

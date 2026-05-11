@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ===== IMPORTANT: model weights & dataset =====
+# Don't push large files to GitHub (100MB limit per file)
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Dataset folders
+MRNet-v1.0/
+radiology_ai/
+
+# Logs / outputs
+logs/
+runs/
+wandb/
+visualizations_*/
+class_mapping.json

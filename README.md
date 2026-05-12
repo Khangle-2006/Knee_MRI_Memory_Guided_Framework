@@ -309,12 +309,12 @@ Grad-CAM++ heatmaps on high-confidence positive cases. The model precisely local
     <td align="center">
       <img src="images/ACL_case_115_no_title.png" alt="ACL Grad-CAM" width="100%"/>
       <br/>
-      <sub><b>(a) ACL Tear</b> — Case 115, p = 0.95</sub>
+      <sub><b>(a) ACL Tear</b> - Case 115, p = 0.95</sub>
     </td>
     <td align="center">
       <img src="images/Meniscus_case_36_no_title.png" alt="Meniscus Grad-CAM" width="100%"/>
       <br/>
-      <sub><b>(b) Meniscus Tear</b> — Case 36, p = 0.91</sub>
+      <sub><b>(b) Meniscus Tear</b> - Case 36, p = 0.91</sub>
     </td>
   </tr>
 </table>
